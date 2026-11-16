@@ -1,16 +1,21 @@
 # Terminal Customization Guide
 
-\<p align="center">   \<strong>A Complete Guide to Building a Beautiful and Productive Terminal Environment\</strong> \</p>
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20WSL-blue?style=for-the-badge)
+![Shell](https://img.shields.io/badge/Shell-PowerShell%20%7C%20Zsh-green?style=for-the-badge)
+![Editor](https://img.shields.io/badge/Editor-VS%20Code-blueviolet?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
-\<p align="center">   \<img src="[https://img.shields.io/badge/Platform-Windows%20%7C%20WSL-blue?style=for-the-badge](https://img.shields.io/badge/Platform-Windows%20%7C%20WSL-blue?style=for-the-badge)" alt="Platform">   \<img src="[https://img.shields.io/badge/Shell-PowerShell%20%7C%20Zsh-green?style=for-the-badge](https://img.shields.io/badge/Shell-PowerShell%20%7C%20Zsh-green?style=for-the-badge)" alt="Shell">   \<img src="[https://img.shields.io/badge/Editor-VS%20Code-blueviolet?style=for-the-badge](https://img.shields.io/badge/Editor-VS%20Code-blueviolet?style=for-the-badge)" alt="Editor">   \<img src="[https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)" alt="License"> \</p>
+**A Complete Guide to Building a Beautiful and Productive Terminal Environment.**
+
+Panduan lengkap untuk mengustomisasi tampilan dan lingkungan terminal agar lebih menarik, nyaman digunakan, dan produktif.
 
 ---
 
 ## Overview
 
-**Terminal Customization Guide** adalah proyek dokumentasi open source yang berisi panduan untuk mengustomisasi tampilan dan lingkungan terminal agar lebih menarik, nyaman digunakan, dan produktif.
+**Terminal Customization Guide** adalah proyek dokumentasi open source yang berisi panduan untuk mengustomisasi tampilan dan lingkungan terminal, khususnya di lingkungan Windows dan WSL.
 
-Proyek ini berfokus pada kustomisasi terminal di lingkungan Windows dengan memanfaatkan berbagai teknologi, seperti Windows Terminal, PowerShell, Windows Subsystem for Linux (WSL), Ubuntu, Zsh, Oh My Zsh, Powerlevel10k, Oh My Posh, dan Visual Studio Code.
+Proyek ini memanfaatkan berbagai teknologi, seperti Windows Terminal, PowerShell, Windows Subsystem for Linux (WSL), Ubuntu, Zsh, Oh My Zsh, Powerlevel10k, Oh My Posh, dan Visual Studio Code.
 
 Tidak hanya menyediakan tutorial, repository ini juga menyediakan contoh file konfigurasi, screenshot hasil kustomisasi, serta koleksi wallpaper yang dapat digunakan sebagai latar belakang terminal.
 
@@ -18,23 +23,31 @@ Proyek ini dibuat agar siapa saja, termasuk pengguna yang baru mengenal terminal
 
 ## Preview
 
-Berikut beberapa contoh tampilan yang menjadi bagian dari proyek ini.
+Berikut beberapa hasil kustomisasi terminal yang didokumentasikan dalam proyek ini.
 
 ### PowerShell — Oh My Posh
 
+![PowerShell Oh My Posh](assets/screenshots/powershell/oh-my-posh-prompt.png)
 
+Screenshot ini memperlihatkan tampilan prompt PowerShell setelah menggunakan Oh My Posh, termasuk informasi direktori dan elemen visual pada prompt.
 
 ### Ubuntu — Zsh & Powerlevel10k
 
+![Ubuntu Powerlevel10k](assets/screenshots/ubuntu-zsh/powerlevel10k-prompt.png)
 
+Contoh tampilan terminal Ubuntu yang menggunakan Zsh dan tema Powerlevel10k.
 
-### Windows Terminal — Acrylic & Background
+### Windows Terminal — Acrylic
 
+![Windows Terminal Acrylic](assets/screenshots/windows-terminal/acrylic-background.png)
 
+Contoh tampilan Windows Terminal dengan efek Acrylic dan pengaturan visual.
 
 ### Visual Studio Code — Integrated Terminal
 
+![VS Code Integrated Terminal](assets/screenshots/vscode/integrated-terminal.png)
 
+Contoh penggunaan terminal terintegrasi di dalam Visual Studio Code.
 
 ---
 
@@ -42,7 +55,7 @@ Berikut beberapa contoh tampilan yang menjadi bagian dari proyek ini.
 
 Beberapa hal yang dibahas dan disediakan dalam repository ini:
 
-- **Windows Terminal Customization** — Mengatur tampilan terminal, warna, transparansi, Acrylic, dan background image.
+- **Windows Terminal Customization** — Mengatur warna, transparansi, Acrylic, dan background image.
 - **PowerShell Customization** — Menggunakan Oh My Posh untuk membuat prompt terminal lebih informatif.
 - **WSL Ubuntu Setup** — Menyiapkan lingkungan Linux menggunakan Windows Subsystem for Linux.
 - **Zsh & Oh My Zsh** — Menggunakan Zsh sebagai shell dengan berbagai fitur kustomisasi.
@@ -58,14 +71,14 @@ Beberapa hal yang dibahas dan disediakan dalam repository ini:
 
 Dokumentasi disusun secara bertahap agar pengguna dapat mengikuti proses konfigurasi dengan lebih mudah.
 
-| No. | Documentation                                               | Description                                                 |
-| --- | ----------------------------------------------------------- | ----------------------------------------------------------- |
-| 01  | [WSL Ubuntu & Zsh](docs/01-wsl-ubuntu-zsh.md)               | Persiapan WSL Ubuntu dan penggunaan Zsh                     |
-| 02  | [Powerlevel10k](docs/02-powerlevel10k.md)                   | Instalasi dan kustomisasi prompt Powerlevel10k              |
-| 03  | [PowerShell & Oh My Posh](docs/03-powershell-oh-my-posh.md) | Kustomisasi prompt PowerShell menggunakan Oh My Posh        |
-| 04  | [VS Code Terminal](docs/04-vscode-terminal.md)              | Pengaturan terminal terintegrasi Visual Studio Code         |
-| 05  | [macOS Inspired Look](docs/05-macos-inspired-look.md)       | Kustomisasi tampilan terminal dengan inspirasi desain macOS |
-| 06  | [Troubleshooting](docs/06-troubleshooting.md)               | Panduan mengatasi masalah konfigurasi terminal              |
+| No. | Documentation | Description |
+|---|---|---|
+| 01 | [WSL Ubuntu & Zsh](docs/01-wsl-ubuntu-zsh.md) | Persiapan WSL Ubuntu dan penggunaan Zsh |
+| 02 | [Powerlevel10k](docs/02-powerlevel10k.md) | Instalasi dan kustomisasi prompt Powerlevel10k |
+| 03 | [PowerShell & Oh My Posh](docs/03-powershell-oh-my-posh.md) | Kustomisasi prompt PowerShell menggunakan Oh My Posh |
+| 04 | [VS Code Terminal](docs/04-vscode-terminal.md) | Pengaturan terminal terintegrasi Visual Studio Code |
+| 05 | [macOS Inspired Look](docs/05-macos-inspired-look.md) | Kustomisasi tampilan terminal dengan inspirasi desain macOS |
+| 06 | [Troubleshooting](docs/06-troubleshooting.md) | Panduan mengatasi masalah konfigurasi terminal |
 
 **Rekomendasi:** Jika baru pertama kali mengikuti proyek ini, mulailah dari dokumentasi nomor 01 dan lanjutkan secara berurutan.
 
@@ -77,30 +90,23 @@ Folder `configs/` menyediakan kumpulan contoh file konfigurasi yang dapat diguna
 
 ```text
 configs/
-│
 ├── powershell/
-│   └── macos-theme.omp.json
-│
 ├── vscode/
-│   └── settings.example.json
-│
 ├── zsh/
-│   └── zshrc.example
-│
 └── README.md
 ```
 
 ### Available Configurations
 
-| Directory     | File                    | Description                                       |
-| ------------- | ----------------------- | ------------------------------------------------- |
-| `powershell/` | `macos-theme.omp.json`  | Tema Oh My Posh untuk PowerShell                  |
-| `vscode/`     | `settings.example.json` | Contoh pengaturan font dan warna terminal VS Code |
-| `zsh/`        | `zshrc.example`         | Contoh konfigurasi Zsh dan Oh My Zsh              |
+| Directory | Example File | Description |
+|---|---|---|
+| `powershell/` | `macos-theme.omp.json` | Tema Oh My Posh untuk PowerShell |
+| `vscode/` | `settings.example.json` | Contoh pengaturan font dan warna terminal VS Code |
+| `zsh/` | `zshrc.example` | Contoh konfigurasi Zsh dan Oh My Zsh |
 
 Setiap file memiliki fungsi dan cara penggunaan yang berbeda.
 
-**Penting:** File konfigurasi yang tersedia merupakan contoh. Sesuaikan lokasi file, font, tema, dan pengaturan lainnya dengan perangkat masing-masing. Jangan langsung menimpa konfigurasi pribadi tanpa membuat cadangan.
+**Penting:** File konfigurasi merupakan contoh yang dapat disesuaikan. Periksa isinya sebelum digunakan, sesuaikan lokasi file dan font dengan perangkat masing-masing, serta buat cadangan konfigurasi pribadi sebelum menggantinya.
 
 Panduan lebih lengkap tersedia di [configs/README.md](configs/README.md).
 
@@ -112,78 +118,63 @@ Repository ini juga menyediakan koleksi wallpaper yang dapat digunakan sebagai b
 
 Wallpaper dikelompokkan menjadi tiga kategori utama.
 
-### Nature
+### Nature Collection
 
 Koleksi wallpaper bertema pemandangan alam.
 
-\<details>
-\<summary>\<strong>View Nature Wallpapers\</strong>\</summary>
+**01. Dark Forest**
 
-**Dark Forest**
+![Dark Forest](assets/wallpapers/nature/dark-forest.png)
 
+**02. Dark Forest 2**
 
+![Dark Forest 2](assets/wallpapers/nature/dark-forest2.png)
 
-**Dark Forest 2**
+**03. Dark Forest 3**
 
+![Dark Forest 3](assets/wallpapers/nature/dark-forest3.png)
 
+**04. Dark Mountain**
 
-**Dark Forest 3**
+![Dark Mountain](assets/wallpapers/nature/dark-mountain.png)
 
+**05. Dark Mountain 2**
 
+![Dark Mountain 2](assets/wallpapers/nature/dark-mountain2.png)
 
-**Dark Mountain**
+**06. Dark Mountain 3**
 
+![Dark Mountain 3](assets/wallpapers/nature/dark-mountain3.png)
 
+**07. Dark Mountain 4**
 
-**Dark Mountain 2**
+![Dark Mountain 4](assets/wallpapers/nature/dark-mountain4.png)
 
-
-
-**Dark Mountain 3**
-
-
-
-**Dark Mountain 4**
-
-
-
-\</details>
-
-### Abstract
+### Abstract Collection
 
 Koleksi wallpaper dengan desain modern dan artistik.
 
-\<details>
-\<summary>\<strong>View Abstract Wallpapers\</strong>\</summary>
+**01. Dark Abstract**
 
-**Dark Abstract**
+![Dark Abstract](assets/wallpapers/abstract/dark-abstract.png)
 
+**02. Dark Abstract 2**
 
+![Dark Abstract 2](assets/wallpapers/abstract/dark-abstract2.png)
 
-**Dark Abstract 2**
-
-
-
-\</details>
-
-### Minimal
+### Minimal Collection
 
 Koleksi wallpaper dengan tampilan sederhana dan minimalis.
 
-\<details>
-\<summary>\<strong>View Minimal Wallpapers\</strong>\</summary>
+**01. Dark Gradient**
 
-**Dark Gradient**
+![Dark Gradient](assets/wallpapers/minimal/dark-gradient.png)
 
+**02. Dark Gradient 2**
 
+![Dark Gradient 2](assets/wallpapers/minimal/dark-gradient2.png)
 
-**Dark Gradient 2**
-
-
-
-\</details>
-
-Untuk melihat seluruh koleksi dan panduan pemasangan, kunjungi [Wallpaper Collection](assets/wallpapers/README.md).
+Untuk melihat katalog lengkap dan panduan pemasangan, kunjungi [Wallpaper Collection](assets/wallpapers/README.md).
 
 ---
 
@@ -193,7 +184,6 @@ Folder `assets/screenshots/` berisi dokumentasi visual hasil kustomisasi termina
 
 ```text
 assets/screenshots/
-│
 ├── powershell/
 │   ├── oh-my-posh-git.png
 │   └── oh-my-posh-prompt.png
@@ -222,15 +212,15 @@ Sebelum mengikuti tutorial, pastikan perangkat sudah memenuhi kebutuhan dasar be
 
 ### Requirements
 
-| Requirement       | Description                                 |
-| ----------------- | ------------------------------------------- |
-| Operating System  | Windows 10/11 yang mendukung fitur terkait  |
-| Terminal          | Windows Terminal                            |
-| Shell             | PowerShell dan/atau Ubuntu WSL              |
-| Linux Environment | Ubuntu melalui WSL                          |
-| Editor            | Visual Studio Code                          |
-| Version Control   | Git                                         |
-| Font              | MesloLGS NF atau font Nerd Font yang sesuai |
+| Requirement | Description |
+|---|---|
+| Operating System | Windows yang mendukung fitur terkait |
+| Terminal | Windows Terminal |
+| Shell | PowerShell dan/atau Ubuntu WSL |
+| Linux Environment | Ubuntu melalui WSL |
+| Editor | Visual Studio Code |
+| Version Control | Git |
+| Font | MesloLGS NF atau font Nerd Font yang sesuai |
 
 Beberapa kebutuhan bersifat opsional dan bergantung pada tutorial yang ingin diikuti.
 
@@ -242,13 +232,13 @@ Buka PowerShell atau terminal lainnya, kemudian jalankan:
 git clone https://github.com/illhammf/terminal-customization-guide.git
 ```
 
-Masuk ke direktori repository:
+### 2. Masuk ke Direktori Repository
 
 ```bash
 cd terminal-customization-guide
 ```
 
-### 2. Buka Repository di VS Code
+### 3. Buka Repository di VS Code
 
 Jika Visual Studio Code sudah terpasang, jalankan:
 
@@ -256,35 +246,17 @@ Jika Visual Studio Code sudah terpasang, jalankan:
 code .
 ```
 
-### 3. Mulai Membaca Dokumentasi
+### 4. Mulai Membaca Dokumentasi
 
-Buka folder:
+Buka folder `docs/`, kemudian ikuti tutorial sesuai urutan yang tersedia.
 
-```text
-docs/
-```
+### 5. Gunakan Contoh Konfigurasi
 
-Kemudian ikuti tutorial sesuai urutan yang tersedia.
+Jika membutuhkan contoh file konfigurasi, buka folder `configs/` dan pilih konfigurasi yang sesuai dengan lingkungan terminal yang digunakan.
 
-### 4. Pilih Konfigurasi
+### 6. Gunakan Wallpaper
 
-Jika membutuhkan contoh file konfigurasi, buka:
-
-```text
-configs/
-```
-
-Pilih konfigurasi yang sesuai dengan lingkungan terminal yang digunakan.
-
-### 5. Gunakan Wallpaper
-
-Jika ingin mengubah background Windows Terminal, buka:
-
-```text
-assets/wallpapers/
-```
-
-Pilih wallpaper yang tersedia dan ikuti panduan pemasangan di README folder tersebut.
+Jika ingin mengubah background Windows Terminal, buka folder `assets/wallpapers/`, pilih wallpaper yang tersedia, kemudian ikuti panduan pemasangan di README folder tersebut.
 
 ---
 
@@ -332,16 +304,16 @@ terminal-customization-guide/
 
 ### Directory Overview
 
-| Directory / File      | Purpose                                |
-| --------------------- | -------------------------------------- |
-| `assets/`             | Menyimpan seluruh materi visual proyek |
-| `assets/screenshots/` | Screenshot hasil kustomisasi terminal  |
-| `assets/wallpapers/`  | Koleksi wallpaper untuk terminal       |
-| `configs/`            | Contoh file konfigurasi                |
-| `docs/`               | Tutorial dan dokumentasi teknis        |
-| `CONTRIBUTING.md`     | Panduan untuk kontributor              |
-| `LICENSE`             | Ketentuan lisensi proyek               |
-| `README.md`           | Halaman utama repository               |
+| Directory / File | Purpose |
+|---|---|
+| `assets/` | Menyimpan seluruh materi visual proyek |
+| `assets/screenshots/` | Screenshot hasil kustomisasi terminal |
+| `assets/wallpapers/` | Koleksi wallpaper untuk terminal |
+| `configs/` | Contoh file konfigurasi |
+| `docs/` | Tutorial dan dokumentasi teknis |
+| `CONTRIBUTING.md` | Panduan untuk kontributor |
+| `LICENSE` | Ketentuan lisensi proyek |
+| `README.md` | Halaman utama repository |
 
 ---
 
@@ -379,7 +351,7 @@ Perlu diperhatikan bahwa aset pihak ketiga, seperti font, gambar, dan merek, dap
 
 ## Acknowledgements
 
-Proyek ini memanfaatkan berbagai aplikasi dan teknologi open source maupun perangkat pengembangan yang membantu proses kustomisasi terminal.
+Proyek ini memanfaatkan berbagai aplikasi dan teknologi yang membantu proses kustomisasi terminal.
 
 Terima kasih kepada para pengembang dan komunitas di balik:
 
@@ -393,18 +365,8 @@ Terima kasih kepada para pengembang dan komunitas di balik:
 
 ---
 
-\<p align="center">
-&#x20; \<strong>Build a terminal that feels like your own.\</strong>
-\</p>
+**Build a terminal that feels like your own.**
 
-\<p align="center">
-&#x20; Made for learning, customization, and the developer community.
-\</p>
+Made for learning, customization, and the developer community.
 
-\<p align="center">
-&#x20; \<a href="[https://github.com/illhammf](https://github.com/illhammf)">GitHub Profile\</a>
-&#x20; ·
-&#x20; \<a href="[https://github.com/illhammf/terminal-customization-guide/issues](https://github.com/illhammf/terminal-customization-guide/issues)">Report an Issue\</a>
-&#x20; ·
-&#x20; \<a href="[https://github.com/illhammf/terminal-customization-guide](https://github.com/illhammf/terminal-customization-guide)">Repository\</a>
-\</p>
+[GitHub Profile](https://github.com/illhammf) · [Report an Issue](https://github.com/illhammf/terminal-customization-guide/issues) · [Repository](https://github.com/illhammf/terminal-customization-guide)
