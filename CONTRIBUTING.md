@@ -125,10 +125,10 @@ Jika ingin berkontribusi melalui GitHub:
 Buka terminal, kemudian jalankan:
 
 ```bash
-git clone https://github.com/USERNAME/terminal-customization-guide.git
+git clone https://github.com/illhammf/terminal-customization-guide.git
 ```
 
-Ganti `USERNAME` dengan username GitHub milikmu.
+Ganti `illhammf` dengan username GitHub milikmu.
 
 Masuk ke direktori repository:
 
