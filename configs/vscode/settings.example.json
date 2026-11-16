@@ -1,0 +1,28 @@
+{
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.lineHeight": 1.2,
+  "workbench.colorCustomizations": {
+    "terminal.background": "#080B10",
+    "terminal.foreground": "#F5F5F5",
+    "terminalCursor.foreground": "#00FF87",
+    "terminal.selectionBackground": "#264F78",
+    "terminal.ansiBlack": "#171717",
+    "terminal.ansiRed": "#FF5F57",
+    "terminal.ansiGreen": "#00FF87",
+    "terminal.ansiYellow": "#FFD75F",
+    "terminal.ansiBlue": "#5F87FF",
+    "terminal.ansiMagenta": "#D787FF",
+    "terminal.ansiCyan": "#00D7FF",
+    "terminal.ansiWhite": "#FFFFFF",
+    "terminal.ansiBrightBlack": "#777777",
+    "terminal.ansiBrightRed": "#FF6E67",
+    "terminal.ansiBrightGreen": "#5FFF87",
+    "terminal.ansiBrightYellow": "#FFFF87",
+    "terminal.ansiBrightBlue": "#87AFFF",
+    "terminal.ansiBrightMagenta": "#FF87FF",
+    "terminal.ansiBrightCyan": "#5FFFFF",
+    "terminal.ansiBrightWhite": "#FFFFFF"
+  }
+}
